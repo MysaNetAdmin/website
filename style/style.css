@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+}
+
+header {
+    background: url("../img/fond-topbar.png");
+    position: fixed;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Days One', sans-serif;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.introduction {
+    padding: 125px;
+    font-family: 'Mitr', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.site {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    background: url("../img/fond-topbar.png");
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+
+.liens {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    width: 70px;
+    height: 70px;
+}
+
+.space {
+    border: 0px none #000;
+    margin: 10px;
+}
+
+.signature {
+    margin: 0 auto;
+    width: 300px;
+    color: white;
+}
+
+.sign {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}

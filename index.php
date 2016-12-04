@@ -21,6 +21,8 @@ if(!isset($_SESSION['auth']) && empty($_SESISON['auth']))
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@SamyHussaein" />
     <meta name="twitter:title" content="Samy Hussaein" />
+    <link rel="icon" type="image/png" href="img/samy.png" />
+
 
 </head>
 

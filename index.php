@@ -8,10 +8,10 @@ if(!isset($_SESSION['auth']) && empty($_SESISON['auth']))
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="SamyHussaein, Samy, Hussaein, geek,developer, engineer, samy, hussaein, @SamyHussaein, twitter, linkedin, github, facebook">
+    <meta name="description" content="SamyHussaein, Samy, Hussaein, geek, developer, engineer, samy, hussaein, @SamyHussaein, twitter, linkedin, github, facebook">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Samy Hussein</title>
     <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
@@ -31,12 +31,12 @@ if(!isset($_SESSION['auth']) && empty($_SESISON['auth']))
 </header>
 <section>
     <div class="introduction">
-        <p>Bonjour et bienvenue sur mon site. Je me présente: je m'apelle Samy HUSSAEIN et j'ai actuellement 20 ans.
+        <p>Moi c'est Samy HUSSAEIN et j'ai actuellement 20 ans.
             <br> Je suis en apprentissage à l'EPITA (Cycle préparatoire) et j'ai des connaissances dans quelques domaines de programmation et développement: </p>
         <ul>
-            <li>• Une année d'expérience en C# (nous avions réaliser un jeux sur Unity,<a class="site" href="https://github.com/SasquatchYuja/GLaDDoS"><em>le git du projet</em></a>) </li>
+            <li>• Une année d'expérience en C# (nous avions réalisé un jeu sur Unity, <a class="site" href="https://github.com/SasquatchYuja/GLaDDoS"><em>le git du projet</em></a>) </li>
             <li>• Deux années d'expérience en Python</li>
-            <li>• Le dévelopement web: html, css et php</li>
+            <li>• Le développement web: html, css et php</li>
         </ul>
     </div>
 </section>

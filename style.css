@@ -1,0 +1,54 @@
+body {
+    background-color: #FFF;
+    background: url("img/fond.png");
+}
+
+nav {
+    background: url("img/fond-topbar.png");
+    top:0;
+    left:0;
+    position:fixed;
+    width:100%;
+    height:100px;
+}
+
+p.title {
+    color: rgb(132, 14, 14);
+    font-family: 'Gentium Basic', serif;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+}
+
+div.introduction {
+    padding: 125px;
+    font-family: "Courier New";
+    font-size: 16px;
+    color: white;
+}
+
+div.signature {
+    margin: 0 auto;
+    width: 300px;
+    color: white;
+}
+
+div.liens {
+    margin: 10px;
+    width: 250px;
+}
+
+a.sign {
+    text-decoration: none;
+    color: white;
+}
+
+a.logos {
+    text-decoration: none;
+    color: black;
+    padding: 0 5px;
+}
+
+a:hover {
+    color: white;
+}

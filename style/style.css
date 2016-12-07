@@ -5,14 +5,26 @@ body {
 header {
     background: url("../img/fond-topbar.png");
     position: fixed;
+    color: white;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    flex-direction: row;
+    margin: auto;
+}
+
+.title-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 .title {
     font-family: 'Days One', sans-serif;
     text-align: center;
     position: relative;
-    color: #fff;
+    color: white;
     font-size: 35px;
     padding: 20px;
 }
@@ -24,42 +36,30 @@ header {
     color: white;
 }
 
-.site {
-    text-decoration: none;
-    color: #fff;
-}
-
 footer {
     background: url("../img/fond-topbar.png");
-    position: fixed;
-    width: 100%;
+    width: 24%;
     display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    flex-direction: row;
+    margin: auto;
 }
 
-.liens {
-    display: flex;
-    align-items: left;
-    justify-content: space-between;
-    width: 70px;
-    height: 70px;
-}
-
-.space {
-    border: 0px none #000;
-    margin: 10px;
-}
-
-.signature {
-    margin: 0 auto;
-    width: 300px;
+a {
     color: white;
 }
 
-.sign {
-    text-decoration: none;
-    color: white;
+.logos {
+    padding: 0 10px;
 }
 
 a:hover {
-    color: white;
+    text-decoration: underline;
+    color: red;
+    margin: auto;
+}
+
+a.logos:hover{
+    text-decoration: none;
 }

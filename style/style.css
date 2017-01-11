@@ -4,9 +4,7 @@ body {
 
 header {
     background: url("../img/fond-topbar.png");
-    position: fixed;
     color: white;
-    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
@@ -43,7 +41,6 @@ footer {
     flex-flow: row wrap;
     flex-direction: row;
     margin: auto;
-    width : 100%;
 }
 
 a {

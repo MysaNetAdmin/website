@@ -37,7 +37,7 @@ if (!isset($_SESSION['auth']) && empty($_SESISON['auth']))
         <section>
             <div class="introduction">
                 <p>Moi c'est Samy HUSSAEIN et j'ai actuellement <?php Age(); ?> ans.
-                    <br> Je suis en apprentissage à l'EPITA (Cycle préparatoire) et j'ai des connaissances dans qelques domaines de programmation et développement: </p>
+                    <br> Je suis en apprentissage à l'EPITA (Cycle préparatoire) et j'ai des connaissances dans quelques domaines de programmation et développement: </p>
                 <ul>
                     <li>• Une année d'expérience en C# (nous avions réalisé un jeu sur Unity, <a class="site" href="https://github.com/SasquatchYuja/GLaDDoS"><em>le git du projet</em></a>) </li>
                     <li>• Deux années d'expérience en Python</li>

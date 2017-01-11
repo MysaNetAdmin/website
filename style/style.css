@@ -38,12 +38,12 @@ header {
 
 footer {
     background: url("../img/fond-topbar.png");
-    width: 24%;
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
     flex-direction: row;
     margin: auto;
+    width : 100%;
 }
 
 a {

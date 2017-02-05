@@ -1,13 +1,4 @@
-<?php
-require_once "Comptes/inc/functions.php";
-session_start();
-if (!isset($_SESSION['auth']) && empty($_SESISON['auth']))
-{
-    $_SESSION['flash']['danger']="Accès non autorisé: Connectez vous d'abord !";
-    header('Location: Comptes/login.php');
-    exit();
-}
-?>
+<?php require_once "Comptes/inc/functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -29,15 +20,16 @@ if (!isset($_SESSION['auth']) && empty($_SESISON['auth']))
 
     <body>
         <header>
-            <div class="title-container">
+            <div class="title-container" class="container">
+                <img src="img/samy.png" class="photo">
                 <p class="title"> Samy HUSSAEIN | Engineering Student & Developer</p>
-                <a href="Comptes/logout.php" class="deco"><i class="fa fa-user fa-2x" aria-hidden="true"></i><br>Déconnexion</a>
             </div>
         </header>
+
         <section>
-            <div class="introduction">
-                <p>Moi c'est Samy HUSSAEIN et j'ai actuellement <?php Age(); ?> ans.
-                    <br> Je suis en apprentissage à l'EPITA (Cycle préparatoire) et j'ai des connaissances dans quelques domaines de programmation et développement: </p>
+            <div class="introduction" class="container">
+                <p>Je m'appelle Samy HUSSAEIN et j'ai <?php Age(); ?> ans.
+                    <br> Actuellement en deuxième année à l'EPITA et j'ai des connaissances dans quelques domaines de programmation: </p>
                 <ul>
                     <li>• Une année d'expérience en C# (nous avions réalisé un jeu sur Unity, <a class="site" href="https://github.com/SasquatchYuja/GLaDDoS"><em>le git du projet</em></a>) </li>
                     <li>• Deux années d'expérience en Python</li>
@@ -47,22 +39,23 @@ if (!isset($_SESSION['auth']) && empty($_SESISON['auth']))
         </section>
 
         <footer>
-            <div class="liens">
+            <div class="liens" class="container">
                 <a href="https://twitter.com/SamyHussaein" target="_blank" class="logos">
-                    <i class="fa fa-twitter fa-4x" aria-hidden="true"></i>
+                    <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
                 </a>
                 <a href="https://github.com/omar94250" target="_blank" class="logos">
-                    <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                    <i class="fa fa-github fa-3x" aria-hidden="true"></i>
                 </a>
                 <a href="https://fr.linkedin.com/in/samyhussaein" target="_blank" class="logos">
-                    <i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
                 </a>
                 <a href="mailto: contact@samyhussaein.com" target="_blank" class="logos">
-                    <i class="fa fa-envelope-square fa-4x" aria-hidden="true"></i>
+                    <i class="fa fa-envelope-square fa-3x" aria-hidden="true"></i>
                 </a>
-            </div>
-            <div class="copyright">
-                <i class="fa fa-copyright"></i> 2016-2017 samyhussaein.com Tous droits réservés
+                <a href="files/CV.pdf" target="_blank" class="logos">
+                    <i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i>
+                </a>
+                <br> <i class="fa fa-copyright"></i> 2016-2017 samyhussaein.com Tous droits réservés
             </div>
         </footer>
     </body>

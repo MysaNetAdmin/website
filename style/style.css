@@ -1,5 +1,8 @@
 body {
     background-color: black;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -35,12 +38,21 @@ header {
 }
 
 footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
     background: url("../img/fond-topbar.png");
     display: flex;
     justify-content: space-around;
-    flex-flow: row wrap;
-    flex-direction: row;
     margin: auto;
+    position: fixed;
+}
+
+.photo {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 
 a {
@@ -48,7 +60,7 @@ a {
 }
 
 .logos {
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 a:hover {
@@ -59,4 +71,11 @@ a:hover {
 
 a.logos:hover{
     text-decoration: none;
+}
+
+.container{
+    width: 1024px;
+}
+
+@media (max-width: 780px) {
 }

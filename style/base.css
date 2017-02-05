@@ -11,10 +11,13 @@ html {
     font-size: calc(1em * .625); /* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
 
     box-sizing: border-box;
+    height: 100%;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {

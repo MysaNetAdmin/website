@@ -10,12 +10,11 @@ header {
     color: white;
     display: flex;
     justify-content: space-around;
-    flex-flow: row wrap;
-    flex-direction: row;
     margin: auto;
 }
 
 .title-container{
+    position: relative;
     display: flex;
     text-align: center;
     align-items: center;
@@ -23,8 +22,6 @@ header {
 
 .title {
     font-family: 'Days One', sans-serif;
-    text-align: center;
-    position: relative;
     color: white;
     font-size: 35px;
     padding: 20px;

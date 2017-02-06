@@ -52,7 +52,7 @@
                 <a href="mailto: contact@samyhussaein.com" target="_blank" class="logos">
                     <i class="fa fa-envelope-square fa-3x" aria-hidden="true"></i>
                 </a>
-                <a href="files/CV.pdf" target="_blank" class="logos">
+                <a href="files/CV - Français.pdf" target="_blank" class="logos">
                     <i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i>
                 </a>
                 <br> <i class="fa fa-copyright"></i> 2016-2017 samyhussaein.com Tous droits réservés

@@ -7,10 +7,14 @@ body {
 
 header {
     background: url("../img/fond-topbar.png");
+    bottom: 0;
+    left: 0;
+    right: 0;
     color: white;
     display: flex;
     justify-content: space-around;
     margin: auto;
+    align-items: center;
 }
 
 .title-container{

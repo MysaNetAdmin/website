@@ -21,10 +21,9 @@
     <body>
         <header>
             <div class="title-container" class="container">
-                <img src="img/samy.png" class="photo">
+                <img src="img/samy.png" alt="#" class="photo">
                 <p class="title"> Samy HUSSAEIN | Engineering Student & Developer</p>
-                <a href="#"> <img src="img/french-flag.png" class="flags"> </a>
-                <a href="en.php"> <img src="img/english-flag.png" class="flags"> </a>
+                <a href="en.php"> <img src="img/english-flag.png"  title="Changer la langue en anglais" alt="#" class="flags"> </a>
             </div>
         </header>
 

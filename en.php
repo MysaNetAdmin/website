@@ -30,12 +30,12 @@
 
         <section>
             <div class="introduction" class="container">
-                <p>Je m'appelle Samy HUSSAEIN et j'ai <?php Age(); ?> ans.
-                    <br> Actuellement en deuxième année à l'EPITA et j'ai des connaissances dans quelques domaines de programmation: </p>
+                <p>My name is Samy HUSSAEIN and I'm <?php Age(); ?> ans.
+                    <br> I am a second year EPITA student and I have a few knowledge in  </p>
                 <ul>
                     <li>• Une année d'expérience en C# (nous avions réalisé un jeu sur Unity, <a class="site" href="https://github.com/SasquatchYuja/GLaDDoS"><em>le git du projet</em></a>) </li>
                     <li>• Deux années d'expérience en Python</li>
-                    <li>• Le développement web: html, css et php</li>
+                    <li>• Web Developtment: html, css et php</li>
                 </ul>
             </div>
         </section>
@@ -54,7 +54,7 @@
                 <a href="mailto: contact@samyhussaein.com" target="_blank" class="logos">
                     <i class="fa fa-envelope-square fa-3x" aria-hidden="true"></i>
                 </a>
-                <a href="files/CV - Français.pdf" target="_blank" class="logos">
+                <a href="files/CV - Anglais.pdf" target="_blank" class="logos">
                     <i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i>
                 </a>
                 <br> <i class="fa fa-copyright"></i> 2016-2017 samyhussaein.com Tous droits réservés

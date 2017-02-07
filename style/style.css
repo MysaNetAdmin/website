@@ -52,6 +52,11 @@ footer {
     width: 100px;
 }
 
+.flags {
+    height: 35px;
+    width: 35px;
+}
+
 a {
     color: white;
 }

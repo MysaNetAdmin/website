@@ -23,19 +23,19 @@
             <div class="title-container" class="container">
                 <img src="img/samy.png" class="photo">
                 <p class="title"> Samy HUSSAEIN | Engineering Student & Developer</p>
-                <a href="index.php" target="_blank"> <img src="img/french-flag.png" class="flags"> </a>
-                <a href="index-anglais.php" target="_blank"> <img src="img/english-flag.png" class="flags"> </a>
+                <a href="index.php"> <img src="img/french-flag.png" class="flags"> </a>
+                <a href="#"> <img src="img/english-flag.png" class="flags"> </a>
             </div>
         </header>
 
         <section>
             <div class="introduction" class="container">
-                <p>My name is Samy HUSSAEIN and I'm <?php Age(); ?> ans.
-                    <br> I am a second year EPITA student and I have a few knowledge in  </p>
+                <p>My name is Samy HUSSAEIN, I'm <?php Age(); ?> years old and looking for a job from September to December 2017.
+                    <br> Actually a second year EPITA student, I have some knowledge in theses few domains of programmation:  </p>
                 <ul>
-                    <li>• Une année d'expérience en C# (nous avions réalisé un jeu sur Unity, <a class="site" href="https://github.com/SasquatchYuja/GLaDDoS"><em>le git du projet</em></a>) </li>
-                    <li>• Deux années d'expérience en Python</li>
-                    <li>• Web Developtment: html, css et php</li>
+                    <li>• One year experience in C# (we had to make a game, <a class="site" href="https://github.com/SasquatchYuja/GLaDDoS"><em>the game git repository</em></a>) </li>
+                    <li>• Two years experiences in Python</li>
+                    <li>• Web Development: HTML, CSS and PHP</li>
                 </ul>
             </div>
         </section>

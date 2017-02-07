@@ -23,19 +23,19 @@
             <div class="title-container" class="container">
                 <img src="img/samy.png" class="photo">
                 <p class="title"> Samy HUSSAEIN | Engineering Student & Developer</p>
-                <a href="index.php" target="_blank"> <img src="img/french-flag.png" class="flags"> </a>
-                <a href="index-anglais.php" target="_blank"> <img src="img/english-flag.png" class="flags"> </a>
+                <a href="#"> <img src="img/french-flag.png" class="flags"> </a>
+                <a href="en.php"> <img src="img/english-flag.png" class="flags"> </a>
             </div>
         </header>
 
         <section>
             <div class="introduction" class="container">
-                <p>Je m'appelle Samy HUSSAEIN et j'ai <?php Age(); ?> ans.
+                <p>Je m'appelle Samy HUSSAEIN, j'ai <?php Age(); ?> ans et je suis à la recherche d'un job de Septembre à Décembre 2017.
                     <br> Actuellement en deuxième année à l'EPITA et j'ai des connaissances dans quelques domaines de programmation: </p>
                 <ul>
                     <li>• Une année d'expérience en C# (nous avions réalisé un jeu sur Unity, <a class="site" href="https://github.com/SasquatchYuja/GLaDDoS"><em>le git du projet</em></a>) </li>
                     <li>• Deux années d'expérience en Python</li>
-                    <li>• Le développement web: html, css et php</li>
+                    <li>• Le développement web: HTML, CSS et PHP</li>
                 </ul>
             </div>
         </section>

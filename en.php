@@ -29,7 +29,7 @@
 
         <section>
             <div class="introduction" class="container">
-                <p>My name is Samy HUSSAEIN, I'm <?php Age(); ?> years old and looking for a job from September to December 2017.
+                <p>My name is Samy HUSSAEIN, I'm <?php Age(); ?> years old and currently looking for a job from September to December 2017.
                     <br> Actually a second year EPITA student, I have some knowledge in theses few domains of programmation:  </p>
                 <ul>
                     <li>• One year experience in C# (we had to make a game, <a class="site" href="https://github.com/SasquatchYuja/GLaDDoS"><em>the game git repository</em></a>) </li>
@@ -56,7 +56,7 @@
                 <a href="files/CV - Anglais.pdf" target="_blank" class="logos">
                     <i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i>
                 </a>
-                <br> <i class="fa fa-copyright"></i> 2016-2017 samyhussaein.com Tous droits réservés
+                <br> <i class="fa fa-copyright"></i> 2016-2017 samyhussaein.com All rights reserved.
             </div>
         </footer>
     </body>

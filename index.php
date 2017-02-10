@@ -56,7 +56,7 @@
                 <a href="files/CV - Français.pdf" target="_blank" class="logos">
                     <i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i>
                 </a>
-                <br> <i class="fa fa-copyright"></i> 2016-2017 samyhussaein.com Tous droits réservés
+                <br> <i class="fa fa-copyright"></i> 2016-2017 samyhussaein.com Tous droits réservés.
             </div>
         </footer>
     </body>

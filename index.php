@@ -30,7 +30,7 @@
         <section>
             <div class="introduction" class="container">
                 <p>Je m'appelle Samy HUSSAEIN, j'ai <?php Age(); ?> ans et je suis à la recherche d'un stage ou d'un CDD de Juillet à Décembre 2017.
-                    <br> Actuellement en deuxième année à l'EPITA et j'ai des connaissances dans quelques domaines de programmation: </p>
+                    <br> Actuellement en deuxième année à l'EPITA, j'ai des connaissances dans quelques domaines de programmation: </p>
                 <ul>
                     <li>• C, nous sommes actuellement en train de faire un logiciel de reconnaissance optique de caractères. </li>
                     <li>• Une année d'expérience en C# (nous avions réalisé un jeu sur Unity, <a class="site" href="https://github.com/SasquatchYuja/GLaDDoS"><em>le git du projet</em></a>) </li>

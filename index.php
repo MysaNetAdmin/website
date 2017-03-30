@@ -29,7 +29,7 @@
 
         <section>
             <div class="introduction" class="container">
-                <p>Je m'appelle Samy HUSSAEIN, j'ai <?php Age(); ?> ans et je suis à la recherche d'un stage ou d'un CDD de Août à Décembre 2017.
+                <p>Je m'appelle Samy HUSSAEIN, j'ai <?php Age(); ?> ans et je suis à la recherche d'un stage ou d'un CDD de Juillet à Décembre 2017.
                     <br> Actuellement en deuxième année à l'EPITA et j'ai des connaissances dans quelques domaines de programmation: </p>
                 <ul>
                     <li>• C, nous sommes actuellement en train de faire un logiciel de reconnaissance optique de caractères. </li>

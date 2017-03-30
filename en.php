@@ -29,7 +29,7 @@
 
         <section>
             <div class="introduction" class="container">
-                <p>My name is Samy HUSSAEIN, I'm <?php Age(); ?> years old and currently looking for a internship from August to December 2017.
+                <p>My name is Samy HUSSAEIN, I'm <?php Age(); ?> years old and currently looking for a internship from July to December 2017.
                     <br> Actually a second year EPITA student, I have some knowledge in theses few domains of programmation:  </p>
                 <ul>
                     <li>• C, we're actually doing an Optical Character Recognition sofware.</li>

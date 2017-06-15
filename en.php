@@ -21,7 +21,7 @@
     <body>
         <header>
             <div class="title-container" class="container">
-                <img src="img/samy.png" alt="#" class="photo">
+                <img src="img/photo.jpg" alt="#" class="photo">
                 <p class="title"> Samy HUSSAEIN | Engineering Student & Developer</p>
                 <a href="index.php"> <img src="img/french-flag.png" title="Switch language to french" alt="#" class="flags"> </a>
             </div>

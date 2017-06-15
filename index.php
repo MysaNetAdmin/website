@@ -21,7 +21,7 @@
     <body>
         <header>
             <div class="title-container" class="container">
-                <img src="img/photo.jpg" alt="#" class="photo">
+                <img src="img/samy.png" alt="#" class="photo">
                 <p class="title"> Samy HUSSAEIN | Engineering Student & Developer</p>
                 <a href="en.php"> <img src="img/english-flag.png"  title="Changer la langue en anglais" alt="#" class="flags"> </a>
             </div>
@@ -32,7 +32,7 @@
                 <p>Je m'appelle Samy HUSSAEIN, j'ai <?php Age(); ?> ans et je suis à la recherche d'un stage ou d'un CDD de Juillet à Décembre 2017.
                     <br> Actuellement en deuxième année à l'EPITA, j'ai des connaissances dans quelques domaines de programmation: </p>
                 <ul>
-                    <li>• C, nous sommes actuellement en train de faire un logiciel de reconnaissance optique de caractères. </li>
+                    <li>• C, j'ai réalisé en groupe un logiciel de reconnaissance optique de caractères. </li>
                     <li>• Une année d'expérience en C# (nous avions réalisé un jeu sur Unity, <a class="site" href="https://github.com/SasquatchYuja/GLaDDoS"><em>le git du projet</em></a>) </li>
                     <li>• Deux années d'expérience en Python</li>
                     <li>• Le développement web: HTML, CSS et PHP</li>

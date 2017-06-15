@@ -32,7 +32,7 @@
                 <p>My name is Samy HUSSAEIN, I'm <?php Age(); ?> years old and currently looking for a internship from July to December 2017.
                     <br> Actually a second year EPITA student, I have some knowledge in theses few domains of programmation:  </p>
                 <ul>
-                    <li>• C, we're actually doing an Optical Character Recognition sofware.</li>
+                    <li>• C, we recently done with a group an Optical Character Recognition Sofware.</li>
                     <li>• One year experience in C# (we had to make a game, <a class="site" href="https://github.com/SasquatchYuja/GLaDDoS"><em>the game git repository</em></a>) </li>
                     <li>• Two years experiences in Python</li>
                     <li>• Web Development: HTML, CSS and PHP</li>

@@ -3,19 +3,27 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="description" content="Je m’appelle Samy Hussaein et je suis un jeune développer et tech addict.">
+        <link rel="icon" href="favicon.ico"/>
+        <title>Samy Hussaein, Tech Addict & Developer</title>
+        <meta name="description" content="Je m’appelle Samy Hussaein et je suis un jeune développeur et tech addict.">
+        <meta name="keywords" content="Samy Hussaein,développeur,EPITA, contact, cv, linkedin, tech, technologies, linux, geek"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="index, follow" />
-        <title>Samy Hussaein</title>
+        <meta name="author" content="Mysa"/>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Mitr" rel="stylesheet">
         <link rel="stylesheet" href="style/base.css">
         <link rel="stylesheet" href="style/style.css">
-        <meta name="twitter:card" content="Geek, developer and tech addict"/>
         <meta name="twitter:site" content="@SamyHussaein"/>
         <meta name="twitter:title" content="Samy Hussaein"/>
-        <link rel="icon" href="favicon.ico"/>
+        <meta name="twitter:description" content="Geek, developer and tech addict">
+        <meta property="og:title" content="@SamyHussaein's WebSite" />
+      	<meta property="og:description" content="Innovation & Tech Lover — Developer, Engineering Student, Geek & Sci-Fan." />
+      	<meta property="og:url" content="https://www.samyhussaein.com" />
+      	<meta property="og:image" content="" />
+      	<meta property="og:type" content="website" />
+      	<meta property="og:site_name" content="Samy Hussaein" />
     </head>
 
     <body>

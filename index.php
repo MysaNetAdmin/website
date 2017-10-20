@@ -4,9 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <link rel="icon" href="favicon.ico"/>
-        <title>Samy Hussaein, Tech Addict & Developer</title>
+        <title>Samy Hussaein</title>
         <meta name="description" content="Je m’appelle Samy Hussaein et je suis un jeune développeur et tech addict.">
-        <meta name="keywords" content="Samy Hussaein,développeur,EPITA, contact, cv, linkedin, tech, technologies, linux, geek"/>
+        <meta name="keywords" content="Samy Hussaein, developper,EPITA, contact, cv, linkedin, tech, technologies, linux, geek"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Mysa"/>
@@ -17,9 +17,9 @@
         <link rel="stylesheet" href="style/style.css">
         <meta name="twitter:site" content="@SamyHussaein"/>
         <meta name="twitter:title" content="Samy Hussaein"/>
-        <meta name="twitter:description" content="Geek, developer and tech addict">
+        <meta name="twitter:description" content="Geek, Developer and Tech Addict">
         <meta property="og:title" content="@SamyHussaein's WebSite" />
-      	<meta property="og:description" content="Innovation & Tech Lover — Developer, Engineering Student, Geek & Sci-Fan." />
+      	<meta property="og:description" content="Young developper, Tech addict & Geek, fascniated with new technologies" />
       	<meta property="og:url" content="https://www.samyhussaein.com" />
       	<meta property="og:image" content="" />
       	<meta property="og:type" content="website" />
@@ -30,7 +30,7 @@
         <header>
             <div class="title-container" class="container">
                 <img src="img/samy.png" alt="#" class="photo">
-                <p class="title"> Samy HUSSAEIN | Engineering Student & Developer</p>
+                <p class="title"> Samy HUSSAEIN | Engineering Student && Developer</p>
                 <a href="en.php"> <img src="img/english-flag.png"  title="Changer la langue en anglais" alt="#" class="flags"> </a>
             </div>
         </header>

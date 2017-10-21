@@ -17,9 +17,9 @@
         <link rel="stylesheet" href="style/style.css">
         <meta name="twitter:site" content="@SamyHussaein"/>
         <meta name="twitter:title" content="Samy Hussaein"/>
-        <meta name="twitter:description" content="Geek, Developer and Tech Addict">
+        <meta name="twitter:description" content="Geek, Developer & Tech Addict">
         <meta property="og:title" content="@SamyHussaein's WebSite" />
-      	<meta property="og:description" content="Young developper, Tech addict & Geek, fascniated with new technologies" />
+      	<meta property="og:description" content="Tech Addict, developer & Geek, fascinated with new technology." />
       	<meta property="og:url" content="https://www.samyhussaein.com" />
       	<meta property="og:image" content="" />
       	<meta property="og:type" content="website" />

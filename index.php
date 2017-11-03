@@ -53,7 +53,7 @@
                 <a href="https://twitter.com/SamyHussaein" target="_blank" class="logos">
                     <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/omar94250" target="_blank" class="logos">
+                <a href="https://github.com/SamyHussaein" target="_blank" class="logos">
                     <i class="fa fa-github fa-3x" aria-hidden="true"></i>
                 </a>
                 <a href="https://fr.linkedin.com/in/samyhussaein" target="_blank" class="logos">

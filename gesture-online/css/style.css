@@ -759,27 +759,33 @@ section:nth-of-type(2){background:black;height:1600px;}
     border-radius: 0px;
 }
 
-.Web.start     { width:85%;  -moz-animation:Web 2s ease-out;       -webkit-animation:Web 2s ease-out; position: relative;  float: left;      }
-.Graphics.start    { width:90%;  -moz-animation:Graphics 2s ease-out;        -webkit-animation:Graphics 2s ease-out;      position: relative;  float: left;  }
-.Developing.start  { width:82%;  -moz-animation:Developing 2s ease-out;      -webkit-animation:Developing 2s ease-out;    position: relative;  float: left;  }
-.Photoshop.start   { width:89%;  -moz-animation:Photoshop 2s ease-out;   -webkit-animation:Photoshop 2s ease-out;   position: relative;  float: left;}
-.Photography.start { width:95%; -moz-animation:Photography 2s ease-out; -webkit-animation:Photography 2s ease-out;   position: relative;  float: left;}
+.Web.start     { width:90%;  -moz-animation:Web 2s ease-out;       -webkit-animation:Web 2s ease-out; position: relative;  float: left;      }
+.Graphics.start    { width:70%;  -moz-animation:Graphics 2s ease-out;        -webkit-animation:Graphics 2s ease-out;      position: relative;  float: left;  }
+.Developing.start  { width:80%;  -moz-animation:Developing 2s ease-out;      -webkit-animation:Developing 2s ease-out;    position: relative;  float: left;  }
+.Photoshop.start   { width:70%;  -moz-animation:Photoshop 2s ease-out;   -webkit-animation:Photoshop 2s ease-out;   position: relative;  float: left;}
+.Photography.start { width:50%; -moz-animation:Photography 2s ease-out; -webkit-animation:Photography 2s ease-out;   position: relative;  float: left;}
 
 
-@-moz-keyframes Web       { 0%  { width:0px;} 100%{ width:85%;}  }
-@-moz-keyframes Graphics        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes Developing      { 0%  { width:0px;} 100%{ width:82%;}  }
-@-moz-keyframes Photoshop   { 0%  { width:0px;} 100%{ width:89%;}  }
-@-moz-keyframes Photography { 0%  { width:0px;} 100%{ width:95%;} }
+@-moz-keyframes Web       { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes Graphics        { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes Developing      { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes Photoshop   { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes Photography { 0%  { width:0px;} 100%{ width:50%;} }
 
-@-webkit-keyframes Web       { 0%  { width:0px;} 100%{ width:85%;}  }
-@-webkit-keyframes Graphics        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes Developing      { 0%  { width:0px;} 100%{ width:82%;}  }
-@-webkit-keyframes Photoshop   { 0%  { width:0px;} 100%{ width:89%;}  }
-@-webkit-keyframes Photography { 0%  { width:0px;} 100%{ width:95%;} }
+@-webkit-keyframes Web       { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes Graphics        { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes Developing      { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes Photoshop   { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes Photography { 0%  { width:0px;} 100%{ width:50%;} }
 
 
-
+/* CLIENT */
+.client {
+	margin: 1em 0;  text-align: center;
+	}
+	.client img {
+		margin: 0 auto; width: auto; max-height: 200px; display:block;
+		}
 
 
 .work-counter {

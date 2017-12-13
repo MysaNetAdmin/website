@@ -10,8 +10,8 @@ if(isset($_POST['submit'])){
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
-    mail($to,$subject,$message,[$headers]);
-    mail($from,$subject,$message2,[$headers2]); // sends a copy of the message to the sender
+    mail($to,$subject,$message);
+    mail($from,$subject,$message2); // sends a copy of the message to the sender
     echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
     }
 ?>

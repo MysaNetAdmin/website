@@ -1,3 +1,8 @@
+<?php
+mail ("samy.hussaein@gmail.com", "salut", "comment");
+require_once "assets/php/form-process.php";
+?>
+
 <!doctype html>
 <html lang="en">
     <head>

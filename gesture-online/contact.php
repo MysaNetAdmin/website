@@ -1,5 +1,4 @@
 <?php
-mail ("samy.hussaein@gmail.com", "salut", "comment");
 $to = "contact@samyhussaein.com"; // this is your Email address
 $from = $_POST['email']; // this is the sender's Email address
 $first_name = $_POST['first_name'];

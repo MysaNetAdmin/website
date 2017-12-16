@@ -1,5 +1,5 @@
 <?php
-mail("contact@samyhussaein.com", "test", "KAPPA TEST")
+mail("samy.hussaien@gmail.com", "test", "KAPPA TEST")
 if(isset($_POST['submit'])){
     $to = "contact@samyhussaein.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address

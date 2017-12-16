@@ -104,38 +104,32 @@
                                             <div class="underline2"></div>
                                         </div><!-- end testimonial-title  -->
                                         <div class="contact-form main-row">
-                                            <form id="contactForm" method="post" action="assets/php/form-process.php" class="contact-form shake" data-toggle="validator">
+                                            <form id="contactForm" class="contact-form shake" data-toggle="validator">
                                                 <div class="form-group">
                                                     <div class="controls">
-                                                        <input type="text" name="first_name" class="form-control" placeholder="First Name" required data-error="Please enter your name">
+                                                        <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
                                                         <div class="help-block with-errors"></div>
                                                     </div><!-- end controls -->
                                                 </div><!-- end form-group -->
                                                 <div class="form-group">
                                                     <div class="controls">
-                                                        <input type="text" name="last_name" class="form-control" placeholder="Last Name" required data-error="Please enter your name">
+                                                        <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
                                                         <div class="help-block with-errors"></div>
                                                     </div><!-- end controls -->
                                                 </div><!-- end form-group -->
                                                 <div class="form-group">
                                                     <div class="controls">
-                                                        <input type="email" class="email form-control" name="email" placeholder="E-mail" required data-error="Please enter your email">
+                                                        <input type="text" id="subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
                                                         <div class="help-block with-errors"></div>
                                                     </div><!-- end controls -->
                                                 </div><!-- end form-group -->
                                                 <div class="form-group">
                                                     <div class="controls">
-                                                        <input type="text" name="subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+                                                        <textarea id="message" rows="7" placeholder="Message" class="form-control" required data-error="Write your message"></textarea>
                                                         <div class="help-block with-errors"></div>
                                                     </div><!-- end controls -->
                                                 </div><!-- end form-group -->
-                                                <div class="form-group">
-                                                    <div class="controls">
-                                                        <textarea name="message" rows="7" placeholder="Message" class="form-control" required data-error="Write your message"></textarea>
-                                                        <div class="help-block with-errors"></div>
-                                                    </div><!-- end controls -->
-                                                </div><!-- end form-group -->
-                                                <button type="submit" name="submit" class="btn btn-success text-center"> Send Message</button>
+                                                <button type="submit" id="submit" class="btn btn-success text-center"> Send Message</button>
                                                 <div id="msgSubmit" class="h3 text-center hidden"></div>
                                                 <div class="clearfix"></div>
                                             </form>
@@ -173,21 +167,3 @@
         <script src="js/jQuery-latest.js" type="text/javascript"></script>
     </body><!-- end body -->
 </html><!-- end html -->
-<?php
-mail("samy.hussaien@gmail.com", "test", "KAPPA TEST")
-/*if(isset($_POST['submit'])){
-    $to = "contact@samyhussaein.com"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
-    $subject = $_POST['subject'];
-    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
-    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
-
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to,$subject,$message);
-    mail($from,$subject,$message2); // sends a copy of the message to the sender
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-  }*/
-?>

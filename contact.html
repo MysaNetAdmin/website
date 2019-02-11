@@ -98,40 +98,33 @@
                                             <div class="underline2"></div>
                                         </div><!-- end testimonial-title  -->
                                         <div class="contact-form main-row">
-                                            <form id="contactForm" accept-charset="UTF-8" action="https://usebasin.com/f/538b18a009a1" enctype="multipart/form-data" method="POST">
+                                            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                                            <form accept-charset="UTF-8" action="https://usebasin.com/f/538b18a009a1" method="POST">
                                                 <div class="form-group">
                                                     <div class="controls">
                                                         <input type="text" name="First Name" class="form-control" placeholder="First Name" required data-error="Please enter your name">
                                                         <div class="help-block with-errors"></div>
-                                                    </div><!-- end controls -->
-                                                </div><!-- end form-group -->
-                                                <div class="form-group">
-                                                    <div class="controls">
+
                                                         <input type="text" name="Last Name" class="form-control" placeholder="Last Name" required data-error="Please enter your name">
                                                         <div class="help-block with-errors"></div>
-                                                    </div><!-- end controls -->
-                                                </div><!-- end form-group -->
-                                                <div class="form-group">
-                                                    <div class="controls">
+
                                                         <input type="email" class="email form-control" name="E-mail" placeholder="E-mail" required data-error="Please enter your email">
                                                         <div class="help-block with-errors"></div>
-                                                    </div><!-- end controls -->
-                                                </div><!-- end form-group -->
-                                                <div class="form-group">
-                                                    <div class="controls">
+
                                                         <input type="text" name="Subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
                                                         <div class="help-block with-errors"></div>
-                                                    </div><!-- end controls -->
-                                                </div><!-- end form-group -->
-                                                <div class="form-group">
-                                                    <div class="controls">
+
                                                         <textarea name="message" rows="7" placeholder="Message" class="form-control" required data-error="Write your message"></textarea>
                                                         <div class="help-block with-errors"></div>
                                                     </div><!-- end controls -->
                                                 </div><!-- end form-group -->
+
                                                 <button type="submit" name="submit" class="btn btn-success text-center"> Send Message</button>
+
                                                 <div id="msgSubmit" class="h3 text-center hidden"></div>
                                                 <div class="clearfix"></div>
+
+                                                <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div >
                                             </form>
                                         </div><!-- end contact-form -->
                                     </div><!-- end col-md-6 -->
